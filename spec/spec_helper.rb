@@ -9,7 +9,7 @@ rescue
   gem "mongomapper"
 end
 
-require "mongomapper"
+require "mongo_mapper"
 
 MongoMapper.database = "machinist_mongomapper"
 
